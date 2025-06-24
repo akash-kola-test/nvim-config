@@ -45,7 +45,7 @@ vim.api.nvim_create_autocmd('LspAttach', {
   end,
 })
 
-local lsp_servers = { "lua_ls", "eslint", "ts_ls", "angularls", "html" }
+local lsp_servers = { "lua_ls", "eslint", "ts_ls", "angularls", "html", "cssls" }
 require('mason').setup({})
 require('mason-lspconfig').setup({
   automatic_enable = true,
